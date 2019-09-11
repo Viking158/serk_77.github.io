@@ -1,0 +1,226 @@
+body {
+  font-family: 'PT Sasn', sans-serif;
+}
+
+.header {
+  background-color: #fcdb00;
+  padding-top: 60px;
+  padding-bottom: 105px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  font-family: 'PT Sasn', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  display: block;
+  margin-top: 10px;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.ipad {
+  margin-top: 70px;
+}
+
+.ipad-box {
+  text-align: center;
+}
+
+.offer {
+  padding-top: 120px;
+}
+
+.offer-title{
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 16px;
+}
+
+.offer-title2{
+  color: #313841;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.offer-text{
+  color: #555555;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 420px;
+}
+
+.features-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+.features-desc{
+  text-align: center;
+  color: #313841;
+  font-size: 20px;
+}
+
+.features{
+  padding-top: 105px;
+  margin-bottom: 65px;
+}
+
+
+.icons {
+  display: flex;
+}
+
+.icon-item a i {
+  color: black;
+  font-size: 42px;
+  margin-right: 30px;
+  transition: all 0.3s ease;
+}
+
+.icon-item a i:hover {
+  text-decoration: none;
+  color: #ff4800;
+}
+
+.feature {
+  display: flex;
+  margin-top: 40px;
+}
+
+.feature-item {
+  font-size: 50px;
+  margin-right: 37px;
+  color: black;
+}
+
+.feature-text {
+  color: #898989;
+  width: 300px;
+}
+
+.touch {
+  padding-top: 100px;
+  background: black;
+}
+
+.yellow {
+  color: #fcdb00;
+}
+
+.white {
+  color: white;
+}
+
+.input {
+  background: white;
+  font-size: 16px;
+  font-family: 'PT Sasn', sans-serif;
+  border-radius: 5px;
+  width: 580px;
+  padding: 15px;
+  border: none;
+}
+
+.touch-button {
+  outline: none;
+  font-size: 16px;
+  font-family: 'PT Sasn', sans-serif;
+  border-radius: 5px;
+  width: 126px;
+  background: #fcdb00;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  padding: 14px 0;
+  margin-left: 21px;
+}
+
+.touch-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.footer {
+  background: #000;
+  padding: 50px 94px;
+  margin: 0 auto;
+}
+
+.credits {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.text-credits  {
+  width: 184px;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .offer {
+        text-align: center;
+    }
+    .offer__text {
+        margin: 20px auto;
+        width: auto;
+    }
+    .icons {
+        justify-content: center;
+    }
+    .icons__item:nth-child(3) {
+        margin-right: 0;
+    }
+    .form__input {
+        margin-right:0;
+        width: 100%;
+    }
+    .form__btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .title__text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ipad {
+        width: 100%;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu__item {
+        text-align: center;
+        margin-bottom:10px;
+    }
+}
