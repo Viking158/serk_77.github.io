@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap&subset=cyrillic,latin-ext,vietnamese');
+
+.menu img {
+  padding: 24px 0;
+  display: block;
+}
+
+.navig {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+  padding: 0;
+}
+
+.navig ul {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.navig ul li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: inline;
+}
+
+.navig ul li a {
+  text-transform: uppercase;
+  font-family: Sintony, serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0 11px;
+  color: #373844;
+}
+
+.navig ul li a:hover {
+  text-transform: uppercase;
+  font-family: Sintony, serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0 11px;
+  color: #7a828a;
+  text-decoration: none;
+}
+
+.order-button {
+  background-color: #fea100;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: Sintony, serif;
+  padding: 13px 0;
+  display: flex;
+  width: 200px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.order-button:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.order-icon {
+  background: url('img/order.png');
+	width: 21px;
+	height: 17px;
+	display: block;
+	margin-right: 13px;
+  padding-bottom: -3px;
+}
+
+.title-panel {
+  height: 570px;
+  background: url('img/first-bg.jpg') no-repeat center top;
+  display: flex;
+  align-items: center;
+}
+
+.title1 {
+  font-size: 56px;
+  font-family: 'Playfair Display', serif;
+	font-weight: 700;
+  color: white;
+  margin-bottom: -7px;
+}
+
+.title2 {
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+	font-weight: 700;
+  color: white;
+}
+
+.special-line {
+  color: #fea100;
+}
+
+.phone-panel {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  background: #edf1f3;
+  border-bottom: 1px solid #dde3e7;
+}
+
+
+
+.phone-text {
+  background: url('img/phone.png') no-repeat left center;
+  font-family: Sintony, serif;
+  color: #14141d;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 230px;
+	padding-left: 56px;
+	padding-top: 5px;
+  margin-left: 30px;
+}
+
+.delivery {
+  font-size: 16px;
+	margin-top: -4px;
+	display: block;
+  color: #fea100;
+}
+
+.phone-number {
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+	font-weight: 700;
+  margin-top: -4px;
+}
+
+.about-img {
+  padding-top: 12px;
+}
+
+.img-block1 {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.img-block2 {
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+
+.about-button {
+  background-color: #fea100;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: Sintony, serif;
+  padding: 13px 0;
+  display: flex;
+  width: 150px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.about-button:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.about-title {
+  font-size: 35px;
+  font-family: 'Playfair Display', serif;
+	font-weight: 700;
+  margin-top: 125px;
+}
+.about-text {
+  font-family: Sintony, serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #878d91;
+  padding:  30px 0;
+}
+
+.special {
+  background: url('img/third-bg.jpg') no-repeat center top;
+	padding-top: 80px;
+}
+
+.special-title {
+  color: white;
+  font-size: 35px;
+  font-family: 'Playfair Display', serif;
+	font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.food__img {
+  margin-bottom: 45px;
+}
+
+.food-card-title {
+  font-family: 'Playfair Display', serif;
+	font-weight: 700;
+  text-align: center;
+  font-size: 26px;
+}
+
+.card-descr{
+  font-family: Sintony, serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #878d91;
+  margin: 0 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.card{
+  border: none;
+  box-shadow: 0 20px 90px rgba(0,0,0,0.15);
+  margin-bottom: 130px;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.home-delivery{
+  font-family: Sintony, serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-right: 1px solid #e1e1e1;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.card-phone{
+  font-size: 26px;
+  font-family: 'Playfair Display', serif;
+	font-weight: 700;
+  padding-right: 100px;
+}
+
+.price{
+  color: #feb433;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+
+.pink {
+  color: #fe4c8d;
+}
+
+.social {
+  background-color: #373844;
+  padding-top: 80px;
+}
+
+.social-box {
+  text-align: center;
+}
+
+.social-icon {
+  height: 55px;
+  width: 55px;
+  margin: 0 2px;
+  margin-bottom: 50px
+}
+
+.line {
+  border-top: 1px solid #52535e;
+  margin-bottom: 120px;
+}
+
+.rights {
+  color: #adb2b7;
+  font-family: Sintony, serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -9px;
+}
+
+.booking-form {
+  border-radius: 15px;
+  background: #edf1f3;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 50px;
+  font-family: Sintony, serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #373844;
+}
+
+.booking-data {
+  width: 200px;
+  display: block;
+}
+
+.booking-data {
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+}
+
+.booking-submit {
+  background-color: #fea100;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: Sintony, serif;
+  padding: 13px 0;
+  display: flex;
+  width: 150px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 27px;
+  margin-right: 25px;
+}
+
+.booking-submit:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#order-form {
+  display: none;
+  position:absolute;
+  z-index: 100;
+  margin-left: 180px;
+}
+
+#gray {
+  opacity: 0.8;
+  padding: 15px;
+  background-color: rgba(1,1,1,0.5);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  display: none;
+  z-index:10;
+  overflow: auto;
+}
